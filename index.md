@@ -1,6 +1,7 @@
 # 徐岩华的博客
 ## 技术分类
 ### [java](/java/index.md)
+### [linux/shell](/linux/shell/macautossh.md)
 
 ## 业务分类
 ### 猎聘
