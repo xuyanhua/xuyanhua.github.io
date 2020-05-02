@@ -2,6 +2,7 @@
 ## 技术分类
 ### [java](/java/index.md)
 ### [linux/shell](/linux/shell/macautossh.md)
+### [基于mpvue框架的微信小程序集成发布](/devops/ci/wxappci.md)
 
 ## 业务分类
 ### 猎聘
