@@ -18,7 +18,7 @@
 
 ### 3.1 jenkins安装
 
-* 环境选择：由于小程序构建的命令集只支持windows/macos，参考[微信官方文档](https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html#%E8%87%AA%E5%8A%A8%E9%A2%84%E8%A7%88)，因此在选择环境时，不能使用常见的linux服务器，必须使用windows服务器，或自己向公司申请一台mac机器。个人建议使用服务器，因为个人电脑在公司办公网，很麻烦因断点原因失去服务，每次断电后ip可能还会发生变化，造成使用上的不便。
+* 环境选择：由于小程序构建的命令集只支持windows/macos，参考[微信官方文档](https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html)，因此在选择环境时，不能使用常见的linux服务器，必须使用windows服务器，或自己向公司申请一台mac机器。个人建议使用服务器，因为个人电脑在公司办公网，很麻烦因断点原因失去服务，每次断电后ip可能还会发生变化，造成使用上的不便。
 
 * 下载jenkins.war
     下载地址：https://www.jenkins.io/download/  
@@ -62,7 +62,7 @@
     * desc：小程序发版描述。发生产提审时使用  
     ![小程序发版描述](images/WX20200503-091618@2x.png)
     * 构建预览
-    ![构建预览](images/WX20200503-103024@2x.png)
+    ![构建预览](images/WX20200505-175200@2x.png)
 
 3. 源码管理
 ![源码管理](images/WX20200505-171247@2x.png)
@@ -375,13 +375,13 @@
   2. 生产环境发版
   ![构建](images/WX20200505-175113@2x.png)
   然后查看发布结果：  
-  ![发布结果](images/WX20200505-175113@2x.png)
+  ![发布结果](images/WX20200505-175200@2x.png)
   ![发布结果](images/WX20200505-174959@2x.png)
 
 ## 5. 附  
 
 本文主要参考了：
 
-微信官方文档：<https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html#%E8%87%AA%E5%8A%A8%E9%A2%84%E8%A7%88>
+微信官方文档：<https://developers.weixin.qq.com/miniprogram/dev/devtools/cli.html>
 
 每日优鲜便利购微信小程序集成 Jenkins 生成二维码发版：<https://testerhome.com/topics/14913>
